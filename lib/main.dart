@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_urraan_session_batch40_ui/flutter_ui/alignment_and_text.dart';
 import 'package:flutter_urraan_session_batch40_ui/flutter_ui/container.dart';
 
 void main() {
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ContainerScreen(),
+      home: AlignmentAndText(),
+      //ContainerScreen(),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
